@@ -1,0 +1,11 @@
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+#sortable > li img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,44 @@
+
+#cityInput {
+    position: absolute;
+    z-index: 1;
+    left: 200px;
+}
+
+#weather {
+    position: absolute;
+    color: aqua;
+    background: #fff;
+    padding-right: 20px;
+}
+
+.cancel {
+    position: absolute;
+    top: -7px;
+    right: 0;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+.mask {
+    position: absolute;
+    display: none;
+    top: 0;
+    background-color: #777;
+    z-index: 1002;
+    left: 0;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+.maskBox{
+    display: block;
+    background: #fff;
+    width: 250px;
+    margin: 0 auto;
+}
+.maskMsg{
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+}
